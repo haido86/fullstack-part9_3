@@ -1,8 +1,6 @@
-import { HeaderProps } from "../types"
-
-const Header=(props:HeaderProps)=>{
+const Header=({name}:{name:string})=>{
     return (
-        <h1>{props.name}</h1>
+        <h1>{name}</h1>
     )
 
 }
