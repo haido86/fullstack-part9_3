@@ -28,8 +28,6 @@ const Content = (
                 {exerciseSubmissionLink && (
                     <p>Submission to: {exerciseSubmissionLink}</p>
                 )}
-
-
             </div>
         </>
     )
